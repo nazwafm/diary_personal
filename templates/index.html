@@ -92,11 +92,7 @@
       if (!profile) {
         return alert("Hey user,you forgot a profile")
       }
-      let save = $("#save").val();
-      if (!save) {
-        return alert("You need to select either Save or Publish option.")
-      }
-
+     
       let form_data = new FormData();
 
       form_data.append("file_give", file);
